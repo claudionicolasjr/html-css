@@ -24,7 +24,7 @@ html,body{
 
     font-family: var(--fonte1);
     min-height: 100vh;
-    background-color: darkgray;
+    background-color: rgba(169, 169, 169, 0);
 
 }
 
@@ -69,13 +69,17 @@ section{
     font-size: 3.5vh;
 }
 
+section > p{
+    padding-bottom: 2em;
+}
+
 section.normal{
     background-color: white;
     color:black;
 }
 
 section.imagem{
-    background-color: rgb(92, 92, 92);
+    background-color: rgba(92, 92, 92, 0.629);
     color: white;
 }
 
@@ -83,6 +87,14 @@ section.imagem > p{
     display: inline-block;
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.388);
+}
+
+section#img01{
+   background-image: url('../d002/imagens/proj\ 1.jpg');
+}
+
+section#img02{
+      background-image: url('../d002/imagens/proj\ 2.jpeg');
 }
 
 
