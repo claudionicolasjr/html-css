@@ -76,25 +76,34 @@ section > p{
 section.normal{
     background-color: white;
     color:black;
+
 }
 
 section.imagem{
     background-color: rgba(92, 92, 92, 0.629);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+    background-size: cover;
+    background-attachment: fixed;
+
 }
 
 section.imagem > p{
     display: inline-block;
     padding: 5px;
-    background-color: rgba(0, 0, 0, 0.388);
+    background-color: rgba(0, 0, 0, 0.516);
+    text-shadow: 1px 1px 0px black ;
 }
 
 section#img01{
    background-image: url('../d002/imagens/proj\ 1.jpg');
+   background-position: right center;
+   background-size: cover;
 }
 
 section#img02{
-      background-image: url('../d002/imagens/proj\ 2.jpeg');
+      background-image: url('../d002/imagens/pro\ 2.jpg');
+      background-size: cover;
 }
 
 
